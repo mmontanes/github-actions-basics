@@ -6,5 +6,10 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello World!"
+      - name: Multi-line action
+        run: |
+          echo "First output"
+          echo "Second output"
+          echo "Third output"
       - name: Print farewell
         run: echo "Done - bye!"
